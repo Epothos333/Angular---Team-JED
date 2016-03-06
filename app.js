@@ -11,5 +11,5 @@ app.config(function($routeProvider) {
 	$routeProvider.when('/view2', {
 		controller: 'controllerTwo',
 		templateUrl: 'view2.html'
-	})
-})
+	});
+});
