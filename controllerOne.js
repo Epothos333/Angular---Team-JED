@@ -7,7 +7,7 @@ app.controller('controllerOne', ['$scope', 'jsonService', function($scope, jsonS
 
 	jsonService.then(function(success) {
 		for (var i = 0; i <15; i++) {
-		theTitles.push(success.data.data.children[i].data.title);
+		theTitles.push(success.data.data.children[i].data);
 		}
 	});
 	$scope.redditTitles = theTitles
