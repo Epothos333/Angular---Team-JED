@@ -5,7 +5,7 @@ angular.module('myApp', [])
     function range(start, stop, step){
 
       var a=[start], b=start;
-      while(b<stop){b+=step;a.push(b);}
+      while(b<stop)	{b+=step;a.push(b);}
       return a;
     }
 
