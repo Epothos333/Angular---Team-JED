@@ -1,6 +1,7 @@
 <div ng-repeat="title in redditTitles">
-	<div class='col-xs-4'>
-		<a href="{{title.url}}"><h6> {{title.title}}</h6></a>
+	<div class='col-xs-3 heightMe text-center'>
+		<a href="{{title.url}}"><h5> {{title.title}}</h5></a>
 		<img src="{{title.thumbnail}}"/>
+		<p class='bottomOut'> <strong>Author: </strong>{{title.author}}</p>
 	</div>
 </div>
