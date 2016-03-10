@@ -1,14 +1,15 @@
-angular.module('myApp', [])
+var app = angular.module('jedModule');
 
-.controller('myCtrl', ['$scope', function($scope) {
-
-    function range(start, stop, step){
-
-      var a=[start], b=start;
-      while(b<stop)	{b+=step;a.push(b);}
-      return a;
+app.controller('FizzBuzzCtrl', ['$scope', function($scope) {
+      $scope.translate = function(value) {
+        var ret = "";
+        
+        if (!value) return "";
+        
+        if (value % 3 === 0) ret += "Fizz";
+        if (value % 5 === 0) ret += "Buzz";
+        
+        return ret || value;
+      };
     }
-
-    $scope.numbers = range(1, 100, 1);
-    
-}]);
+]);
