@@ -6,5 +6,4 @@ app.directive('directiveOne', function() {
 	vm.template= '<h4>EveryBody Look at me!</h4>';
 	vm.replace= false;
 	return vm;
-	
 });
