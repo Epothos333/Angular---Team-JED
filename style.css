@@ -1,31 +1,25 @@
-h1{
-    font-family: 'Montserrat', sans-serif;
+.banner {
+  background-color: #800080;
+  width: 100%;
 }
-
-ul.nav navbar-nav navbar-right a{ color:black;}
-
-#map {
-    height:420px;
-    width:600px;
+.banner h1 {
+  color: #fff;
+  margin-bottom: 50px;
 }
-.infoWindowContent {
-    font-size:  14px !important;
-    border-top: 1px solid #ccc;
-    padding-top: 10px;
+.banner a {
+  font-size: 18px;
+  margin: 3px 20px;
+  color: #fff;
+  text-shadow: 0 0 5px #ee82ee;
 }
-h2 {
-    margin-bottom:0;
-    margin-top: 0;
+.bottomOut {
+  position: absolute;
+  bottom: 0;
 }
-
-a.detail-link
-{
-    text-decoration:none;
-    opacity:1;
-}
-
-a:hover.detail-link
-{
-    text-decoration:none;
-    opacity:0.8;
+.heightMe {
+  height: 250px;
+  position: relative;
+  border: 3px outset #000;
+  margin: 10px 4%;
+  padding: 0;
 }
