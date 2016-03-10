@@ -10,5 +10,10 @@ app.config(['$routeProvider',
       when('/view2', {
         templateUrl: 'view2.html',
         controller: 'controllerTwo'
-      });
+      });      
+      // when('/home', {
+      //   templateUrl: 'home.html',
+      //   controller: 'controllerTwo'
+      // });
+
   }]);
