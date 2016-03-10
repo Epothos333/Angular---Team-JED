@@ -8,8 +8,7 @@ app.controller('controllerTwo', function($scope) {
         
         if (value % 3 === 0) ret += "Fizz";
         if (value % 5 === 0) ret += "Buzz";
-        
-        return ret || value;
+
+        $scope.value = ret || value ; 
       };
-    }
-});
+    });
